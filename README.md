@@ -4,6 +4,9 @@ Telegram Bot for home monitoring (via web-camera)
 
 #Что это такое
 Телеграм бот, который присылает вам фотографии с веб-камеры, если кто-то залез к вам в дом или квартиру.<br>
+
+<img src="https://habrastorage.org/files/ca8/9f0/633/ca89f063376c4fc7aa3377b85a1d89af.jpg"/>
+
 <br>
 #Вам понадобится
 1) Веб-камера<br>
