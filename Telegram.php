@@ -226,7 +226,7 @@ class tbClass{
   {
     $data = compact('chat_id', 'audio', 'duration', 'reply_to_message_id', 'reply_markup');
 
-    if (((!is_dir($video)) && (filter_var($video, FILTER_VALIDATE_URL) === FALSE)))
+    if (((!is_dir($audio)) && (filter_var($audio, FILTER_VALIDATE_URL) === FALSE)))
       return $this->sendRequest('sendVoice', $data);
 
     return $this->uploadFile('sendVoice', $data);

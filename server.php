@@ -65,11 +65,17 @@ fwrite($fLog," Успешно!\r\n");
 				foreach($updates['result'] as $data){
 
 					$updateId = $updates['result'][count($updates['result']) - 1]['update_id'];
-					$message = $data['message']['text'];
 					$chatId = $data['message']['chat']['id'];
+					$message="";
+					if($data['message']['voice']){$voice = $data['message']['voice'];}
+					if($data['message']['text']){$message = $data['message']['text'];}
 					
 					
-
+					
+					
+					
+						//var_dump($data); 
+						print "\r\n";
 					if(in_array($chatId,$authDialogs)){
 					
 							if($message=="/reboot"){
