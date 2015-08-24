@@ -5,15 +5,15 @@ Telegram Bot for home monitoring (via web-camera)
 #Что это такое
 Телеграм бот, который присылает вам фотографии с веб-камеры, если кто-то залез к вам в дом или квартиру.<br>
 
-<table><tr><td>
-<img width="250" src="https://habrastorage.org/files/ca8/9f0/633/ca89f063376c4fc7aa3377b85a1d89af.jpg"/>
-</td><td>
 
-#Вам понадобится
+<img width="250" src="https://habrastorage.org/files/ca8/9f0/633/ca89f063376c4fc7aa3377b85a1d89af.jpg"/>
+
+
+<h2>Вам понадобится</h2>
 1) Веб-камера<br>
 2) Домашний сервер (я использовал Raspberry Pi) с доступом в интернет<br>
 <br>
-</td></tr></table>
+
 
 #Подготовка
 <br>
